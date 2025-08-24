@@ -105,7 +105,7 @@ co.eci.snake
 ## Entregables
 
 1. **Código fuente** funcionando en **Java 21**.
-2. Todo de manera clara en **`**`el reporte de laboratorio`**`** con:
+2. Todo de manera clara en **`**el reporte de laboratorio**`** con:
    - Data races encontradas y su solución.
    - Colecciones mal usadas y cómo se protegieron (o sustituyeron).
    - Esperas activas eliminadas y mecanismo utilizado.
@@ -120,7 +120,7 @@ co.eci.snake
 - (2) **Pausa/Reanudar**: consistencia visual y de estado.
 - (2) **Robustez**: corre **con N alto** y sin excepciones de concurrencia.
 - (1.5) **Calidad**: estructura clara, nombres, comentarios; sin _code smells_ obvios.
-- (1.5) **Documentación**: **`RESPUESTAS.txt`** claro, reproducible; README actualizado.
+- (1.5) **Documentación**: **`reporte de laboratorio`** claro, reproducible;
 
 ---
 
