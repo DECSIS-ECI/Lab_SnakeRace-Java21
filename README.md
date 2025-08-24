@@ -73,7 +73,7 @@ co.eci.snake
 ### 1) Análisis de concurrencia
 
 - Explica **cómo** el código usa hilos para dar autonomía a cada serpiente.
-- **Identifica** y documenta en **`en el reporte de laboratorio`**:
+- **Identifica** y documenta en **`el reporte de laboratorio`**:
   - Posibles **condiciones de carrera**.
   - **Colecciones** o estructuras **no seguras** en contexto concurrente.
   - Ocurrencias de **espera activa** (busy-wait) o de sincronización innecesaria.
@@ -82,7 +82,7 @@ co.eci.snake
 
 - **Elimina** esperas activas reemplazándolas por **señales** / **estados** o mecanismos de la librería de concurrencia.
 - Protege **solo** las **regiones críticas estrictamente necesarias** (evita bloqueos amplios).
-- Justifica en **`RESPUESTAS.txt`** cada cambio: cuál era el riesgo y cómo lo resuelves.
+- Justifica en **`el reporte de laboratorio`** cada cambio: cuál era el riesgo y cómo lo resuelves.
 
 ### 3) Control de ejecución seguro (UI)
 
@@ -105,7 +105,7 @@ co.eci.snake
 ## Entregables
 
 1. **Código fuente** funcionando en **Java 21**.
-2. Archivo **`RESPUESTAS.txt`** con:
+2. Todo de manera clara en **`**`el reporte de laboratorio`**`** con:
    - Data races encontradas y su solución.
    - Colecciones mal usadas y cómo se protegieron (o sustituyeron).
    - Esperas activas eliminadas y mecanismo utilizado.
@@ -114,15 +114,13 @@ co.eci.snake
 
 ---
 
-## Criterios de evaluación (sugeridos, /10)
+## Criterios de evaluación (10)
 
 - (3) **Concurrencia correcta**: sin data races; sincronización bien localizada.
 - (2) **Pausa/Reanudar**: consistencia visual y de estado.
 - (2) **Robustez**: corre **con N alto** y sin excepciones de concurrencia.
 - (1.5) **Calidad**: estructura clara, nombres, comentarios; sin _code smells_ obvios.
 - (1.5) **Documentación**: **`RESPUESTAS.txt`** claro, reproducible; README actualizado.
-
-> Si el curso lo requiere, agrega **tests** de estrés y estáticos (p. ej., SpotBugs/Checkstyle) y CI en PRs.
 
 ---
 
@@ -148,3 +146,5 @@ Incluye compilación y ejecución de pruebas JUnit. Si tienes análisis estátic
 ## Créditos
 
 Este laboratorio es una adaptación modernizada del ejercicio **SnakeRace** de ARSW. El enunciado de actividades se conserva para mantener los objetivos pedagógicos del curso.
+
+**Base construida por el Ing. Javier Toquica.**
