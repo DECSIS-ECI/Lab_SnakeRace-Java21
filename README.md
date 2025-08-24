@@ -73,7 +73,7 @@ co.eci.snake
 ### 1) Análisis de concurrencia
 
 - Explica **cómo** el código usa hilos para dar autonomía a cada serpiente.
-- **Identifica** y documenta en **`RESPUESTAS.txt`**:
+- **Identifica** y documenta en **`en el reporte de laboratorio`**:
   - Posibles **condiciones de carrera**.
   - **Colecciones** o estructuras **no seguras** en contexto concurrente.
   - Ocurrencias de **espera activa** (busy-wait) o de sincronización innecesaria.
